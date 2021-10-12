@@ -34,7 +34,27 @@
     .bg-grey-chart .btcwdgt-chart.btcwdgt.btcwdgt-headlines.btcwdgt-clean{
         margin-left: 10px !important;
     }
+
+    #contact_form .form_section .form_section_info form table tr td .first{
+        background-color: #2d2d2d;
+        border: 1px solid #999;
+        width: 290px;
+        height: 50px;
+        padding-left: 10px;
+        color: #fff;
+        margin-right: 20px;
+    }
+      
+    #contact_form .form_section .form_section_info #form .my_table .message{
+       width: 600px;
+       background-color: #2d2d2d;
+        border: 1px solid #999;
+        height: 200px;
+        padding-left: 10px;
+        color: #fff;
+    }
 }
+
 @media (min-width:768px) and (max-width:991.90px){
     .main-logo{
         text-align: center;
@@ -71,7 +91,123 @@
     .bg-grey-chart .btcwdgt-chart.btcwdgt.btcwdgt-headlines.btcwdgt-clean{
         margin-left: 47px !important;
     }
+
+    #contact_form .form_section .form_section_info form table tr td .first{
+        background-color: #2d2d2d;
+        border: 1px solid #999;
+        width: 220px;
+        height: 50px;
+        padding-left: 10px;
+        color: #fff;
+        margin-right: 20px;
+    }
+      
+    #contact_form .form_section .form_section_info #form .my_table .message{
+       width: 460px;
+       background-color: #2d2d2d;
+        border: 1px solid #999;
+        height: 200px;
+        padding-left: 10px;
+        color: #fff;
+    }
+
+    #contact_form .form_location .address .text h4{
+        font-size: 14px;
+    }
+      
+    #contact_form .form_section .form_section_heading p{
+        color: gray;
+        font-size: 8px;
+        line-height: 14px;
+    }
+
+    #contact_form .form_location .address span{
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        text-align: center;
+        line-height: 30px;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+
+    #pricing header h2{
+        font-size: 15px;
+    }
+
+    #pricing header span{
+        margin: o;
+        line-height: 10px;
+    }
+
+    #pricing .price .curency{
+        font-size: 18px;
+        font-weight: 300;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    #pricing .price .value{
+        font-size: 24px;
+    }
+
+    #blog .post-date{
+        width: 35px;
+        height: 45px;
+    }
+
+    #blog .post-date span{
+        line-height: 10px;
+        font-size: 8px;
+    }
+
+    #pricing .pricing_table_item .pricing_taka h3{
+        font-size: 25px;
+        margin: 25px 0;
+        font-weight: 700;
+    }
+
+    #pricing .pricing_table_item .pricing_footer .active{
+        font-size: 10px;
+        padding: 8px 25px;
+        display: inline-block;
+    }
+
+
+    .service_item .service_box .service_img img{
+        width: 30px;
+        height: auto;
+    }
+
+    .service_item .service_box .service_text h3{
+        font-size: 16px;
+    }
+
+    .service_item .service_box .service_text p{
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    #shopping_cart div .click{
+        padding: 8px 20px;
+        font-size: 8px;
+    }
+
+    #terms_of_services .terms_item h3{
+        font-size: 20px;
+    }
+
+    #terms_of_services .terms_item p{
+        font-size: 12px;
+    }
 }
+
+
 @media (min-width:576px) and (max-width:767.90px){
     .slider-content h3{
         font-size: 26px;
@@ -109,40 +245,255 @@
     }
     .vedio-block a {
         transform: translateY(-50%);
-        -webkit-transform: translateY(-50%);
-}
-.sub-title-head p::after, .sub-title-head p::before{
-    display: none;
-}
-.is-visible{
-    margin-bottom: 20px;
-}
-.form-equal {
-	display: block;
-	padding: 20px;
-}
-#bitcoin-calculator-section .container {
-    height: 406px;
-}
-.team-member{
-    margin-bottom: 20px;
-}
-.image-block-quote {
-	height: 376px;
-	padding: 57px 50px;
-}
-.bg-grey-chart .btcwdgt-chart.btcwdgt.btcwdgt-headlines.btcwdgt-clean{
-    margin-left: 0 !important;
-}
-.facts-footer {
-	padding-top: 35px;
-	border-top: 1px solid #d1d1d1;
-}
-.p-20{
-    padding-bottom: 25px;
+       -webkit-transform: translateY(-50%);
+    }
+    .sub-title-head p::after, .sub-title-head p::before{
+        display: none;
+    }
+    .is-visible{
+        margin-bottom: 20px;
+    }
+    .form-equal {
+        display: block;
+        padding: 20px;
+    }
+    #bitcoin-calculator-section .container {
+        height: 406px;
+    }
+    .team-member{
+        margin-bottom: 20px;
+    }
+    .image-block-quote {
+        height: 376px;
+        padding: 57px 50px;
+    }
+    .bg-grey-chart .btcwdgt-chart.btcwdgt.btcwdgt-headlines.btcwdgt-clean{
+        margin-left: 0 !important;
+    }
+    .facts-footer {
+        padding-top: 35px;
+        border-top: 1px solid #d1d1d1;
+    }
+    .p-20{
+        padding-bottom: 25px;
+    }
+
+    #about .title-head{
+        font-size: 30px;
+    }
+
+    #about .sub-title-head p{
+        font-size: 10px;
+    }
+
+    #about #about-us{
+        width: 50%;
+        height: 75%;
+    }
+
+    #about .about-content h3{
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    #about .about-content p{
+        font-size: 12px;
+    }
+
+    #bitcoin-calculator-section .calculator-content .calculator-heading h2{
+        font-size: 30px;
+        font-weight: 300;
+    }
+
+    #bitcoin-calculator-section .calculator-content .calculator-heading p{
+        font-size: 10px;
+        margin-top: 3px;
+    }
+
+    #bitcoin-calculator-section .calculator-content .calculator-item{
+        margin-bottom: 8px;
+    }
+
+    #bitcoin-calculator-section .calculator-content .calculator-item h3 {
+        font-size: 25px;
+        font-weight: 400;
+    }
+
+    #bitcoin-calculator-section .calculator-content .calculator-item h4 {
+        font-size: 10px;
+        text-transform: uppercase;
+        margin-top: 5px;
+    }
+
+    #bitcoin-calculator-section .calculator-content .button-item {
+        margin-top: 20px;
+    }
+
+    #call-action .action-text h2 {
+        color: #fff;
+        font-size: 20px;
+        font-weight: 400;
+        margin: 10px 0 15px;
+        text-transform: uppercase;
+    }
+
+    #call-action .action-text p{
+        font-size: 14px;
+        line-height: 15px;
+        margin-bottom: 15px;
+    }
+
+    #contact_form .form_section .form_section_heading h4 {
+        color: #fff;
+        font-size: 14px;
+        margin-bottom: 5px;
+        font-weight: 400;
+    }
+
+    #contact_form .form_section .form_section_info form table tr td .first {
+        width: 120px;
+        height: 30px;
+        padding-left: 15px;
+        margin-right: 10px;
+    }
+
+    #contact_form .form_section .form_section_info #form .my_table .message {
+        width: 250px;
+        height: 80px;
+        padding-left: 5px;
+    }
+
+    #contact_form .form_location .address .icon {
+        color: #fd961a;
+        font-size: 14px;
+    }
+
+    #contact_form .form_location .address .text {
+        margin-left: 10px;
+        margin-bottom: 20px;
+    }
+
+    #contact_form .form_location .address .text h4 {
+        font-size: 16px;
+        color: #fff;
+        font-weight: 700;
+    }
+
+    #contact_form .form_location .address .text p {
+        font-size: 10px;
+        color: gray;
+        line-height: 10px;
+    }
+
+    #contact_form .form_location .address span {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        text-align: center;
+        line-height: 40px;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+    #pricing .pricing_table_item {
+        background-color: #1d1d1d;
+        padding: 20px 6px;
+    }
+
+    #pricing .pricing_table .pricing_table_item .pricing_header h2 {
+        color: #fff;
+        font-size: 14px;
+        margin: 16px 0;
+        font-weight: 700;
+    }
+
+    #pricing .pricing_table .pricing_table_item .pricing_footer .btn-primary.active {
+        background-color: #fd961a;
+        border: #fd961a;
+        font-size: 8px;
+        padding: 8px 26px;
+    }
+
+    #pricing .pricing_table .pricing_table_item .pricing_taka h3 {
+        margin: 20px 0;
+        font-weight: 300;
+        font-size: 25px;
+    }
+
+    #pricing h3 {
+        font-size: 16px;
+        color: #ffffff;
+        font-weight: 300;
+        margin-bottom: 4px;
+        margin-top: 10px;
+    }
+
+    #pricing p{
+        font-size: 12px;
+    }
+
+    .service_item .service_section > .service_box {
+        padding: 20px;
+        margin-bottom: 10px;
+        background-color: #2d2d2d;
+    }
+
+    .service_item .service_section .service_text h3 {
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 400;
+        margin: 0 0 8px;
+    }
+
+    .service_item .service_section .service_text p {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16px;
+    }
+
+    #shopping_cart div .code {
+        margin-right: 5px;
+        font-size: 6px;
+        padding: 10px 16px;
+    }
+
+    #shopping_cart div .coupon {
+        margin-right: 5px;
+        font-size: 6px;
+        padding: 10px 16px;
+    }
+
+    #shopping_cart div .cart {
+        margin-right: 5px;
+        margin-top: 10px;
+        font-size: 6px;
+        padding: 10px 16px;
+        margin-left: 60%;
+    }
+
+    #terms_of_services .terms_item {
+        padding: 6px 0;
+    }
+
+    #terms_of_services .terms_item h3 {
+        font-size: 18px;
+        font-weight: 500;
+        color: #fff;
+        margin-bottom: 5px;
+    }
+
+    #terms_of_services .terms_item p {
+        font-size: 12px;
+    }
+    
 }
 
-}
+
 @media (max-width:575px){
     .bitcoin-status{
         display: none;
@@ -278,32 +629,615 @@
         box-shadow: none !important;
         border-radius:0 !important;
         -webkit-border-radius:0 !important;
+    }
+    .navbar-toggler i {
+        color: #fff;
+    }
+    #mynav ul{
+        text-align: center;
+    }
+    #mynav ul li{
+        padding: 15px 0;
+    }
+    #mynav ul li a{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    #mynav ul> li> ul{
+        opacity: 1;
+        visibility: visible;
+        position: static;
+        width: auto;
+        background-color: transparent;
+        display: none;
+    }
+    #mynav ul li ul li:hover{
+        background-color:transparent;
+    }
+    #mynav ul li ul li a{
+          padding: 0 ;
+    }
+
 }
-.navbar-toggler i {
-    color: #fff;
+
+@media (min-width:320px) and (max-width:575.90px){
+    .user-part ul li a {
+        padding: 8px 20px;
+        font-size: 8px;
+    }
+
+    .action-text h2 {
+        color: #fff;
+        font-size: 12px;
+        font-weight: 500;
+        margin: 4px 0 10px;
+        text-transform: uppercase;
+    }
+
+    #terms_of_services .terms_item {
+        padding: 5px 8px;
+    }
+
+    #terms_of_services .terms_item h3 {
+        font-size: 20px;
+        font-weight: 500;
+        color: #fff;
+        margin-bottom: 2px;
+    }
+
+    #terms_of_services .terms_item p {
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .action-text h2 {
+        color: #fff;
+        font-size: 17px;
+        font-weight: 700;
+        margin: 6px 0 16px;
+        text-transform: uppercase;
+    }
+
+    .action-text p {
+        font-size: 12px;
+        color: #9b9999;
+        line-height: 10px;
+        font-weight: 300;
+        margin-bottom: 15px;
+    }
+
+    .action-btn {
+        display: block;
+        padding: 8px 15px;
+        margin-top: 20px;
+        background-color: var(--scinColorOrange);
+        max-width: 100px;
+        margin: 0 auto;
+        color: #fff;
+        font-size: 10px;
+        text-transform: uppercase;
+    }
+
+    .company h4 {
+        font-size: 12px;
+        margin-top: 0;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        color: var(--scinColorOrange);
+        line-height: 20px;
+    }
+
+    .contact h4, .support h4, .company h4 {
+        font-size: 12px;
+        margin-top: 0;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        color: var(--scinColorOrange);
+        line-height: 20px;
+    }
+
+    .contact ul li, .support ul li a, .company ul li a {
+        color: #999;
+        font-size: 8px;
+        font-weight: 300;
+        display: block;
+        margin-bottom: 2px;
+        transition: 0.1s;
+        -webkit-transition: 0.1s;
+        line-height: 20px;
+        text-transform: uppercase;
+    }
+
+    .payment-logs h4 {
+        color: #999;
+        margin-bottom: 5px;
+        font-size: 10px;
+    }
+
+    .facts-footer div h5 {
+        font-size: 18px;
+        font-weight: 500;
+        color: var(--scinColorOrange);
+        margin-bottom: 5px;
+    }
+
+    .facts-footer div span {
+        text-transform: uppercase;
+        font-size: 8px;
+        color: #999;
+    }
+
+    .bottom-footer p {
+        padding: 13px 0;
+        border-top: 1px solid #222;
+        font-size: 12px;
+    }
+
+    .action-text h2 {
+        color: #fff;
+        font-size: 12px;
+        font-weight: 300;
+        margin: 4px 0 10px;
+        text-transform: uppercase;
+    }
+
+    #call-action .action-text ul li .activeOne {
+        font-size: 12px;
+    }
+
+    #call-action .action-text ul li .activeTwo {
+        font-size: 12px;
+    }
+
+    #shopping_cart table thead {
+        height: 25px;
+        background-color: #2d2d2d;
+    }
+
+    #shopping_cart table thead th {
+        color: #fff;
+        border-bottom: none;
+        padding: 12px 0;
+        text-transform: uppercase;
+        font-size: 10px;
+    }
+
+    #shopping_cart .text-left .sell_number{
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+    #shopping_cart .text-left{
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+
+    }#shopping_cart div, #shopping_cart .cart {
+        padding-top: 5px;
+    }
+
+    #shopping_cart div .code {
+        margin-left: 40px;
+        font-size: 6px;
+        padding: 8px 18px;
+    }
+
+    #shopping_cart div .coupon {
+        font-size: 6px;
+        padding: 8px 18px;
+        margin-left: 40px;
+    }
+
+    #shopping_cart div .cart {
+        font-size: 6px;
+        padding: 8px 18px;
+        display: inline-block;
+        margin-left: 110px;
+        margin-top: 10px;
+    }
+
+    #shopping_cart .bottom h6 {
+        font-size: 12px;
+        color: #fff;
+        font-weight: 300;
+    }
+
+    #shopping_cart .bottom p {
+        font-size: 8px;
+    }
+
+    #shopping_cart .bottom h5{
+        font-size: 12px;
+    }
+
+    #shopping_cart div .click {
+        font-size: 4px;
+        padding: 8px 18px;
+        color: #fff;
+        margin-right: 5px;
+    }
+
+    .service_item .service_section > .service_box {
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    .service_item .service_section .service_img img {
+        width: 20%;
+        height: 15%;
+    }
+
+    .service_item .service_section .service_text h3 {
+        font-size: 12px;
+        font-weight: 400;
+        margin: 0 0 5px;
+    }
+
+    .service_item .service_section .service_text p {
+        font-size: 8px;
+        font-weight: 400;
+        line-height: 14px;
+    }
+
+    #right_side .left_part .grid_heading h3 {
+        font-size: 10px;
+        font-weight: 500;
+        color: #fff;
+        transition: all linear .3s;
+        -webkit-transition: all linear .3s;
+        -moz-transition: all linear .3s;
+        -ms-transition: all linear .3s;
+        -o-transition: all linear .3s;
+        margin-bottom: 2px;
+    }
+
+    #right_side .left_part .grid_para p {
+        font-size: 10px;
+        padding-top: 8px;
+    }
+
+    #right_side .left_part .grid_bottom a {
+        display: inline-block;
+        padding: 10px 25px;
+        background-color: #fd961a;
+        color: #fff;
+        font-size: 10px;
+    }
+
+    #right_side .left_part .social_link ul li {
+        display: inline-block;
+        padding: 2px 2px;
+        color: #fff;
+        font-size: 10px !important;
+    }
+
+    #right_side .right_part .right_part_sec {
+        background-color: #2d2d2d;
+        padding: 15px;
+        margin: 15px 0;
+    }
+
+    #right_side .right_part .right_part_sec h3 {
+        font-size: 12px;
+        font-weight: 500;
+        color: #fff;
+        margin-bottom: 5px;
+    }
+
+    #right_side .right_part .right_part_sec a {
+        font-size: 8px !important;
+        padding: 5px 0;
+    }
+
+    #right_side .right_part .post h3 {
+        font-size: 12px;
+        font-weight: 500;
+        color: #fff;
+        margin-bottom: 5px;
+    }
+
+    #right_side .right_part .post .post_text h6 {
+        font-size: 12px;
+    }
+
+    #right_side .right_part .post .post_text p {
+        font-size: 10px;
+    }
+
+    #right_side .right_part .tag h3 {
+        font-size: 12px;
+        font-weight: 500;
+        color: #fff;
+        margin-bottom: 5px;
+    }
+
+    #right_side .right_part .tag a {
+        font-size: 10px;
+    }
+
+    #pricing .pricing_table .pricing_box {
+        margin-bottom: 15px;
+    }
+
+    #pricing .pricing_table .pricing_table_item .pricing_header h2 {
+        color: #fff;
+        font-size: 12px;
+        margin: 5px 0;
+        font-weight: 500;
+    }
+
+    #pricing .pricing_table .pricing_table_item .pricing_taka h3 {
+        margin: 15px 0;
+        font-weight: 700;
+        font-size: 25px;
+    }
+
+    #pricing .pricing_table .pricing_table_item .pricing_footer .btn-primary.active {
+        background-color: #fd961a;
+        border: #fd961a;
+        font-size: 8px;
+        padding: 10px 25px;
+    }
+    
+    #pricing h3 {
+        font-size: 16px;
+        color: #ffffff;
+        font-weight: 500;
+        margin-bottom: 4px;
+        margin-top: 8px;
+    }
+
+    #pricing p{
+        font-size: 10px;
+        line-height: 14px;
+        color: #999;
+        font-weight: 300;
+    }
+
+    #contact_form .form_section .form_section_heading h4 {
+        color: #fff;
+        font-size: 16px;
+        margin-bottom: 6px;
+        font-weight: 700;
+    }
+
+    #contact_form .form_section .form_section_heading p {
+        color: gray;
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    #contact_form .form_section .form_section_info form table tr td .first {
+        width: 140px;
+        height: 35px;
+        font-size: 12px;
+    }
+
+    #contact_form .form_section .form_section_info #form .my_table .message {
+        width: 300px;
+        background-color: #2d2d2d;
+        border: 1px solid #999;
+        height: 60px;
+        font-size: 12px;
+    }
+
+    #contact_form .form_section .form_section_bottom a {
+        display: inline-block;
+        background-color: #fd961a;
+        padding: 8px 28px;
+        font-size: 8px;
+    }
+
+    #contact_form .form_location .address .text h4 {
+        font-size: 14px;
+        color: #fff;
+        font-weight: 500;
+    }
+
+    #contact_form .form_location .address .text p {
+        font-size: 10px;
+        line-height: 10px;
+    }
+
+    #contact_form .form_location .address span {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        text-align: center;
+        line-height: 30px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .title-head {
+        color: #fff;
+        text-transform: uppercase;
+        margin: 0 15px;
+        padding: 10px 0 20px;
+        font-size: 25px;
+        line-height: 25px;
+        font-weight: 700;
+    }
+
+    .sub-title-head p {
+        position: relative;
+        color: #999;
+        display: inline-block;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+        font-size: 10px;
+    }
+
+    #about .title-about{
+        font-size: 20px;
+        margin-top: 15px;
+    }
+
+    #about .about-text{
+        font-size: 12px !important;
+        line-height: 16px;
+    }
+
+    #about .active{
+        margin-bottom: 5px;
+        font-size: 12px;
+        padding: 15px 25px;
+        text-align: center;
+    }
+
+    .nav-tabs li a {
+        padding: 15px 25px;
+        color: #555;
+        margin: 5px 0;
+        display: inline-block;
+        border-right: 1px solid #555;
+        font-size: 12px;
+    }
+
+    #about #menu1 p{
+        font-size: 12px;
+        line-height: 18px;
+        color: #999;
+        font-weight: 400;
+    }
+    #bitcoin-calculator-section .calculator-heading h2{
+        font-size: 20px;
+        color: #fff;
+    }
+    #bitcoin-calculator-section .calculator-heading p{
+        font-size: 14px;
+        color: #fff;
+    }
+
+    #bitcoin-calculator-section .calculator-item h3{
+        font-size: 14px;
+        color: gray;
+
+    }
+
+    #item .team-member .team_box{
+        margin-bottom: 20px;
+    }
+
+    .slider-content h3 {
+        font-size: 14px;
+        line-height: 25px;
+        margin: 40px 0;
+    }
+
+    .slider-content a {
+        padding: 6px 12px;
+        border: 1px solid var(--scinColorOrange);
+        background-color: transparent;
+        color: var(--scinColorOrange);
+        transition: 0.1s;
+        -webkit-transition: 0.1s;
+        text-transform: uppercase;
+        font-size: 12px;
+        line-height: 24px;
+    }
+
+    #features .feature-box .feature-icon img{
+        width: 50px;
+        height: 50px;
+    }
+
+    .feature-content h3 {
+        color: #fff;
+        font-size: 14px;
+        margin-bottom: 5px;
+        line-height: normal;
+    }
+
+    .feature-content p {
+        color: #ddd;
+        font-size: 10px;
+        line-height: 16px;
+    }
+
+    #image-block .feature img{
+        width: 50px;
+        height: 50px;
+    }
+
+    .image-block .feature-title {
+        color: #fff;
+        margin: 10px 0;
+        font-size: 12px;
+    }
+
+    .image-block .feature-title p{
+        color: #fff;
+        margin: 10px 0;
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .pricing-header {
+        height: auto;
+        padding: 15px;
+    }
+
+    .pricing-header h2 {
+        font-size: 12px;
+        margin-top: 15pxpx;
+        line-height: 1.8rem;
+        color: #e7e7e7;
+        letter-spacing: 2px;
+    }
+
+    .pricing-header h2 span {
+        display: block;
+        color: #e7e7e7;
+        text-transform: uppercase;
+        font-size: 9px;
+        font-weight: 400;
+        padding-top: 12px;
+    }
+
+    #pricing .price .curency {
+        font-size: 14px;
+        font-weight: 300;
+    }
+
+    #pricing .price .value{
+        font-size: 14px;
+    }
+
+    .pricing-footer a {
+        display: block;
+        margin: 0 15px;
+        padding: 8px 15px;
+        background-color: var(--scinColorOrange);
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 8px;
+    }
+
+    .post-body .post-title a {
+        margin-top: 15px;
+        display: block;
+        margin-bottom: 10px;
+        color: #fff;
+        font-size: 14px;
+        line-height: 20px;
+        transition: 0.1s;
+        -webkit-transition: 0.1s;
+    }
+
+    #blog .post-body p{
+        font-size: 10px;
+    }
+
+    #chart blockquote p{
+        font-size: 14px;
+    }
+
 }
-#mynav ul{
-    text-align: center;
-}
-#mynav ul li{
-    padding: 15px 0;
-}
-#mynav ul li a{
-    font-size: 16px;
-    font-weight: 600;
-}
-#mynav ul> li> ul{
-    opacity: 1;
-    visibility: visible;
-    position: static;
-    width: auto;
-    background-color: transparent;
-    display: none;
-}
-#mynav ul li ul li:hover{
-    background-color:transparent;
-  }
-  #mynav ul li ul li a{
-      padding: 0 ;
-  }
-}
+    
